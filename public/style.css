@@ -1,0 +1,20 @@
+:root{--bg:#f4f7fb;--card:#fff;--accent:#2563eb}
+body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:#0f172a}
+.site{max-width:1100px;margin:28px auto;padding:20px}
+.header{display:flex;align-items:center;justify-content:space-between}
+.header h1{margin:0;font-size:28px}
+.tag{color:#475569}
+.main{margin-top:18px}
+.grid{display:flex;gap:16px;flex-wrap:wrap}
+.card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.06);width:260px}
+.card-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.price{font-weight:700;color:var(--accent)}
+.desc{color:#334155;font-size:13px}
+.btn-buy{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+.panel{background:#fff;padding:12px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.04)}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.orderBox{white-space:pre-wrap;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace}
+.footer{margin-top:22px;color:#94a3b8;font-size:13px}
+.nav{display:flex;gap:12px;margin-bottom:16px}
+.nav a{color:#334155;text-decoration:none;padding:6px 10px;border-radius:8px}
+.nav a.active{background:#eef2ff;color:#2563eb}
